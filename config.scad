@@ -36,8 +36,8 @@ panels_custom    = ["PANELS",6,            5,          5,           0,         3
 extend_x = 110;
 
 // FIXME: Why does a number work, but not $panels[1]???
-function side_panel_thickness()     = 2 ; // $panels[1]
-function panel_radius()             = 5; // $panels[2]
+function side_panel_thickness()     = $panels[1];
+function panel_radius()             = $panels[2];
 function extend_front_and_rear_x()  = 0; // extend_front_and_rear_x() panels by this to make the sides bigger.
 function extend_bottom_panel_x()    = 0; // extend_front_and_rear_x() panels by this to make the sides bigger.
 function extendz()                  = 0; // extend panels down to cover the feet. 53 covers the feet
